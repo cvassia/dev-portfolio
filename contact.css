@@ -1,0 +1,133 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+nav button {
+  outline: 0 !important;
+  color: white;
+}
+
+nav .overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  background-color: white;
+  overflow-y: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav .overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: right;
+  padding-right: 3em;
+  margin-top: 30px;
+}
+
+nav .overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+nav .overlay .closebtn {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  font-size: 35px;
+}
+
+nav #logo {
+  color: black;
+}
+
+#contact {
+  font-family: "Comfortaa", cursive;
+  background-color: black;
+}
+
+#contact .informations {
+  color: rgba(255, 255, 255, 0.664);
+  padding: 4em 0 3em 7em;
+}
+
+#contact .informations img {
+  width: 50%;
+  height: auto;
+}
+
+#contact .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact label {
+  color: white;
+}
+
+#contact input,
+#contact select,
+#contact textarea {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: 0 !important;
+  border: none;
+  border-left: 1px solid white !important;
+}
+
+#contact input[type="submit"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: 0 !important;
+  border: none !important;
+}
+
+footer {
+  font-family: "Comfortaa", cursive;
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer p {
+  padding-right: 10em;
+}
+
+footer a {
+  color: black;
+  padding-top: 0.1em;
+}
+/*# sourceMappingURL=contact.css.map */

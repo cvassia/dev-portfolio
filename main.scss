@@ -1,0 +1,411 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+// Navbar
+
+nav {
+  button {
+    outline: 0 !important;
+  }
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: right;
+    padding-right: 3em;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 2s;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    font-size: 35px;
+  }
+
+  #logo {
+    color: black;
+  }
+
+  #navbarNavAltMarkup {
+    a {
+      color: #000000;
+    }
+  }
+}
+
+// text about me
+#about {
+  height: 1em;
+}
+section {
+  margin-top: 1em;
+  article {
+    h1,
+    h2 {
+      margin: 1em 0.1em 1em 0.3em;
+    }
+
+    #hidden {
+      display: none;
+    }
+    p {
+      margin: 0.5em 2em 0 1.5em;
+      font-family: "Comfortaa", cursive;
+      font-size: 1.1em;
+    }
+    h4 {
+      margin: 0 2em 0 0.6em;
+    }
+    .first-paragraph {
+      text-align: justify;
+      margin-top: 2em;
+    }
+    h4 {
+      margin-top: 1em;
+    }
+  }
+}
+
+// Projects
+
+#projects-desktop {
+  display: none;
+}
+
+#projects {
+  font-family: "Comfortaa", cursive;
+
+  .middle_line {
+    width: 50%;
+    height: 4em;
+    margin: 3em 0 3em 0;
+    border-right: 1px solid rgba(105, 105, 105, 0.808);
+  }
+  h2 {
+    padding-top: 2em;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+  }
+
+  article {
+    margin-top: 2em;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  h6 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+
+  h5 {
+    text-align: center;
+  }
+}
+
+// contact form
+
+#contact {
+  font-family: "Comfortaa", cursive;
+  background-color: black;
+  margin-top: 6em;
+
+  .informations {
+    color: rgba(255, 255, 255, 0.664);
+    padding: 4em 0 3em 7em;
+
+    img {
+      width: 50%;
+      height: auto;
+    }
+  }
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  label {
+    color: white;
+  }
+  input,
+  select,
+  textarea {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: 0 !important;
+    border: none;
+    border-left: 1px solid white !important;
+  }
+
+  input[type="submit"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: 0 !important;
+    border: none !important;
+  }
+}
+
+// Footer
+
+footer {
+  font-family: "Comfortaa", cursive;
+
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  p {
+    padding-right: 10em;
+  }
+
+  a {
+    color: black;
+    padding-top: 0.1em;
+  }
+}
+
+// MEDIA QUERIES
+
+@media (min-width: 768px) {
+  section {
+    #flex {
+      margin: 1em 0 0 2em;
+      display: flex;
+      flex-wrap: wrap;
+      #hidden {
+        display: flex;
+        width: 30%;
+        height: 25%;
+        margin: 11em 0 0 14em;
+      }
+      h1 {
+        display: flex;
+        text-align: left;
+        width: 20%;
+        margin: 4em 0em 1em 0.3em;
+      }
+      p {
+        display: flex;
+        margin: 3em 16em 0 1.5em;
+        width: 50%;
+      }
+    }
+
+    #no-flex {
+      margin-left: 2em;
+      h2 {
+        margin-top: 3em;
+      }
+
+      h4 {
+        margin: 0 2em 0 0.6em;
+      }
+      .first-paragraph {
+        text-align: justify;
+        margin-top: 2em;
+      }
+      h4 {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  #contact {
+    .reveal-logo {
+      width: 10% !important;
+    }
+  }
+
+  footer {
+    #first-icon {
+      padding-left: 10em;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  #navbarNavAltMarkup {
+    width: 40%;
+  }
+  #flex {
+    margin-left: 5em !important;
+
+    #hidden {
+      width: 35% !important;
+    }
+
+    h1 {
+      margin-top: 7em !important;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  }
+  #no-flex {
+    margin-left: 5em !important;
+    margin-bottom: 8em !important;
+  }
+  // projects
+
+  .mobile {
+    display: none;
+  }
+  #projects-desktop {
+    font-family: "Comfortaa", cursive;
+    display: block;
+
+    .middle_line {
+      width: 50%;
+      height: 4em;
+      margin: 3em 0 3em 0;
+      border-right: 1px solid rgba(105, 105, 105, 0.808);
+    }
+    h2 {
+      padding-top: 2em;
+      text-align: center;
+      font-family: "Space Mono", monospace;
+    }
+
+    article {
+      margin-top: 2em;
+    }
+
+    h6 {
+      text-align: right;
+      margin-bottom: 0;
+      margin-top: 9em;
+      position: absolute;
+      left: 31em;
+      font-size: 1.5em;
+    }
+
+    h5 {
+      text-align: right;
+      margin-top: 8em;
+      position: absolute;
+      left: 17em;
+      font-size: 2em;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .empty-left {
+      width: 60%;
+    }
+
+    .reveal-container1 {
+      width: 70%;
+      display: flex;
+      margin-right: -10em;
+    }
+
+    .middle_line1 {
+      width: 10%;
+      height: 32em;
+      margin: 0em -2em 3em 0;
+      border-left: 1px solid rgba(105, 105, 105, 0.5);
+    }
+
+    .empty-right {
+      width: 60%;
+    }
+
+    #picture-left {
+      width: 61%;
+      margin-left: -9em;
+      a {
+        margin-right: 4em;
+      }
+    }
+    .middle_line2 {
+      width: 10%;
+      height: 29em;
+      margin: -3em -5.9em 3em 0;
+      border-left: 1px solid rgba(105, 105, 105, 0.5);
+    }
+  }
+  #h5-right {
+    text-align: right;
+    margin-top: 7em;
+    position: absolute;
+    right: 19em;
+    font-size: 2em;
+  }
+  #h6-right {
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 7em;
+    position: absolute;
+    left: 31em;
+    font-size: 1.5em;
+  }
+
+  // contact
+
+  #contact {
+    .reveal-logo {
+      width: 10% !important;
+    }
+  }
+
+  footer {
+    display: inline-flex;
+  }
+  p {
+    padding-left: 2em;
+  }
+
+  #first-icon {
+    padding-left: 69em;
+  }
+  a {
+    padding-left: 2em;
+  }
+}

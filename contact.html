@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:500|Space+Mono"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a id="logo" class="navbar-brand" href="index.html">Vc</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span onclick="openNav()"> Menu</span>
+      </button>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <div class="overlay-content">
+          <a onclick="closeNav()" href="index.html">About me</a>
+          <a onclick="closeNav()" href="project.html">Projects</a>
+          <a onclick="closeNav()" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+
+    <!-- contact section -->
+
+    <div id="contact">
+      <div class="informations">
+        <img class="reveal-logo" src="pictures/logo.png" alt="logo" />
+        <h4>vassia christ</h4>
+        <h6>c.vassia@live.com</h6>
+        <h6>+49 15750411168</h6>
+      </div>
+      <div class="wrapper">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Your message.."
+            style="height:200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <script>
+      /* Setting Scroll reveal as a global 
+  object in window */
+      window.sr = new ScrollReveal({
+        reset: true // to repeat the effect
+      });
+
+      sr.reveal(".reveal-logo", {
+        origin: "bottom", // Place to start
+        distance: "700px", // Distance to be moved
+        duration: 6000
+      });
+    </script>
+
+    <!-- footer -->
+    <footer>
+      <p>&copy; vassia christ</p>
+
+      <a
+        class="fab fa-facebook-f"
+        href="https://www.facebook.com/vassia.christ"
+      ></a>
+
+      <a
+        class="fab fa-pinterest"
+        href="https://www.pinterest.de/vassiachrist/web-design/"
+      ></a>
+      <a class="fab fa-dribbble" href="https://dribbble.com/vassia1"></a>
+    </footer>
+  </body>
+</html>
