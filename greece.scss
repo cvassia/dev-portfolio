@@ -178,3 +178,50 @@ footer a {
   color: black;
   padding-top: 0.1em;
 }
+
+// MEdia QUeries
+
+@media (min-width: 768px) {
+  .MainContainer {
+    height: 140em;
+  }
+  .ParallaxContainer {
+    height: 200em;
+  }
+
+  .presentation {
+    img {
+      width: 50%;
+    }
+    #tablet {
+      width: 60%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .first-section {
+    .text {
+      img {
+        width: 70%;
+        height: auto;
+        margin-left: 15em;
+      }
+    }
+  }
+  .MainContainer {
+    height: 200em;
+  }
+  .ParallaxContainer {
+    height: 200em;
+  }
+
+  .presentation {
+    img {
+      width: 50%;
+    }
+    #tablet {
+      width: 50%;
+    }
+  }
+}

@@ -266,7 +266,7 @@ footer {
 
 @media (min-width: 1024px) {
   #navbarNavAltMarkup {
-    width: 40%;
+    width: 40% !important;
   }
   #flex {
     margin-left: 5em !important;
@@ -298,93 +298,49 @@ footer {
     .middle_line {
       width: 50%;
       height: 4em;
-      margin: 3em 0 3em 0;
+      // margin: 3em 0 3em 0;
       border-right: 1px solid rgba(105, 105, 105, 0.808);
     }
+
+    .container {
+      margin-top: 7em;
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(1, 1fr auto 1fr);
+    }
+
     h2 {
       padding-top: 2em;
       text-align: center;
       font-family: "Space Mono", monospace;
     }
 
-    article {
-      margin-top: 2em;
-    }
-
     h6 {
       text-align: right;
       margin-bottom: 0;
-      margin-top: 9em;
-      position: absolute;
-      left: 31em;
-      font-size: 1.5em;
+      padding-top: 10em;
     }
 
     h5 {
       text-align: right;
-      margin-top: 8em;
-      position: absolute;
-      left: 17em;
-      font-size: 2em;
     }
 
     img {
       width: 100%;
       height: auto;
     }
-    .container {
-      display: flex;
-      justify-content: space-between;
-    }
-    .empty-left {
-      width: 60%;
-    }
-
-    .reveal-container1 {
-      width: 70%;
-      display: flex;
-      margin-right: -10em;
-    }
 
     .middle_line1 {
-      width: 10%;
-      height: 32em;
-      margin: 0em -2em 3em 0;
       border-left: 1px solid rgba(105, 105, 105, 0.5);
-    }
-
-    .empty-right {
-      width: 60%;
-    }
-
-    #picture-left {
-      width: 61%;
-      margin-left: -9em;
-      a {
-        margin-right: 4em;
-      }
     }
     .middle_line2 {
-      width: 10%;
-      height: 29em;
-      margin: -3em -5.9em 3em 0;
+      margin-left: 4em;
       border-left: 1px solid rgba(105, 105, 105, 0.5);
     }
-  }
-  #h5-right {
-    text-align: right;
-    margin-top: 7em;
-    position: absolute;
-    right: 19em;
-    font-size: 2em;
-  }
-  #h6-right {
-    text-align: right;
-    margin-bottom: 0;
-    margin-top: 7em;
-    position: absolute;
-    left: 31em;
-    font-size: 1.5em;
+
+    .text-align-left {
+      text-align: left;
+    }
   }
 
   // contact
