@@ -118,10 +118,12 @@
       <article id="no-flex">
         <h2>What i do</h2>
         <h4>Design</h4>
-        <p>Photoshop ,Illustrator, Sketch, inVision Studio, After Effects, Lightroom</p>
+        <p>Photoshop, Illustrator, InDesign, Sketch, inVision Studio, After Effects, Lightroom, Autocad, 3ds Max</p>
 
         <h4>Front-end</h4>
-        <p>html ,css ,css preprocessing(Scss, Less) , Javascript, Bootstrap, ReactJs, Git, REST</p>
+        <p>HTML, CSS, CSS preprocessing (SCSS, Less), Bootstrap,</p>
+    
+        <p>JavaScript, jQuery, ES6, React, Redux, Node.js, MongoDB, Git, NPM, RESTful API access level management design</p>
         <!-- <h4>Back-end</h4>
         <p>...under construction...</p>
       </article> -->
@@ -129,64 +131,36 @@
 
     <!-- Projects Section for mobile-->
 
-    <section class="mobile" id="projects">
+    <section id="projects" class="mobile" >
       <h2 id="reveal-h">Projects</h2>
+
       <div class="middle_line"></div>
       <article class="reveal-container">
-        <a href="../html-cv/index.html">
+        <a href="https://cvassia.github.io/cv/">
           <img src="pictures/cv.jpg" alt="cv" />
         </a>
         <h6 class="info">2019</h6>
-        <h5 class="info">curiculum vitae</h5>
+        <h5 class="info">curriculum vitae</h5>
       </article>
+
       <div class="middle_line"></div>
-      <article class="reveal-container">
-        <a href="../html-blog/index.html">
-          <img src="pictures/blog.jpg" alt="planets" />
+     <article class="reveal-container">
+        <a href="https://cvassia.github.io/weatherApp/">
+          <img src="pictures/weather.jpg" alt="weather" />
         </a>
         <h6 class="info">2019</h6>
-        <h5 class="info">planets blog</h5>
-      </article>
+        <h5 class="info">weather app</h5>
+    </article>
+
       <div class="middle_line"></div>
       <article class="reveal-container">
         <a href="../fanastic-four/index.html">
-          <img src="pictures/fantastic4.jpg" alt="fantastic 4" />
+          <img src="pictures/toDo.png" alt="to do list" />
         </a>
         <h6 class="info">2019</h6>
-        <h5 class="info">fantastic 4 website</h5>
+        <h5 class="info">to do list app</h5>
       </article>
-      <div class="middle_line"></div>
-      <article class="reveal-container">
-        <a href="../html-photo_blog/index.html">
-          <img src="pictures/photo-blog.jpg" alt="tailand" />
-        </a>
-        <h6 class="info">2019</h6>
-        <h5 class="info">photo blog tailand</h5>
-      </article>
-      <div class="middle_line"></div>
-      <article class="reveal-container">
-        <a href="../html-portfolio/index.html">
-          <img src="pictures/portfolio.jpg" alt="portfolio" />
-        </a>
-        <h6 class="info">2019</h6>
-        <h5 class="info">theater portfolio</h5>
-      </article>
-      <div class="middle_line"></div>
-      <article class="reveal-container">
-        <a href="greece.html">
-          <img src="pictures/greece.jpg" alt="greece" />
-        </a>
-        <h6 class="info">2019</h6>
-        <h5 class="info">greece website</h5>
-      </article>
-      <div class="middle_line"></div>
-      <article class="reveal-container">
-        <a href="../html-patra/index.html">
-          <img src="pictures/patra.jpg" alt="patra" />
-        </a>
-        <h6 class="info">2019</h6>
-        <h5 class="info">patra website</h5>
-      </article>
+
       <div class="middle_line"></div>
       <article class="reveal-container">
         <a href="https://cvassia.github.io/Spyros_Markopoulos/index.html">
@@ -195,6 +169,25 @@
         <h6 class="info">2019</h6>
         <h5 class="info">actor's website</h5>
       </article>
+
+      <div class="middle_line"></div>
+      <article class="reveal-container">
+        <a href="greece.html">
+          <img src="pictures/greece.jpg" alt="greece" />
+        </a>
+        <h6 class="info">2019</h6>
+        <h5 class="info">greece website</h5>
+      </article>
+
+      <div class="middle_line"></div>
+      <article class="reveal-container">
+        <a href="../html-patra/index.html">
+          <img src="pictures/patra.jpg" alt="patra" />
+        </a>
+        <h6 class="info">2019</h6>
+        <h5 class="info">patra website</h5>
+      </article>
+
       <div class="middle_line"></div>
       <article class="reveal-container">
         <a href="../ProductLandingPage/index.html">
@@ -203,41 +196,63 @@
         <h6 class="info">2019</h6>
         <h5 class="info">landing page</h5>
       </article>
+
+      <div class="middle_line"></div>
+      <article class="reveal-container">
+        <a href="https://cvassia.github.io/diceApp/">
+          <img src="pictures/dice.jpg" alt="dice" />
+        </a>
+        <h6 class="info">2018</h6>
+        <h5 class="info">roll the dice</h5>
+      </article>
+
+      <div class="middle_line"></div>
+      <article class="reveal-container">
+        <a href="../html-portfolio/index.html">
+          <img src="pictures/portfolio.jpg" alt="portfolio" />
+        </a>
+        <h6 class="info">2018</h6>
+        <h5 class="info">theater portfolio</h5>
+      </article>
+
+      <div class="middle_line"></div>
+      <article class="reveal-container">
+        <a href="../fanastic-four/index.html">
+          <img src="pictures/fantastic4.jpg" alt="fantastic 4" />
+        </a>
+        <h6 class="info">2018</h6>
+        <h5 class="info">fantastic 4 website</h5>
+      </article>
     </section>
 
     <script>
       /* Setting Scroll reveal as a global 
 object in window */
       window.sr = new ScrollReveal({
-        reset: true // to repeat the effect
+        reset: false // to repeat the effect
       });
 
       // First Section
       sr.reveal("#reveal-h", {
         origin: "left", // Place to start
         distance: "500px", // Distance to be moved
-        duration: 5000
+        duration: 3000
       });
 
       // Second section
       sr.reveal(".reveal-container", {
         origin: "bottom",
-        duration: 5000,
+        duration: 3000,
         distance: "200px"
       });
 
       // info box
       sr.reveal(".info", {
         origin: "bottom",
-        duration: 5000,
+        duration: 3000,
         distance: "200px"
       });
 
-      sr.reveal("#hidden", {
-        origin: "bottom",
-        duration: 5000,
-        distance: "700px"
-      });
     </script>
 
     <!-- Projects Section for desktop-->
@@ -248,78 +263,52 @@ object in window */
       <section class="container">
         <article>
           <h6 class="info1">2019</h6>
-          <h5 class="info1">curiculum vitae</h5>
+          <h5 class="info1">curriculum vitae</h5>
         </article>
         <div class="middle_line1"></div>
         <article class="reveal-container1">
-          <a href="../html-cv/index.html">
+          <a href="https://cvassia.github.io/cv/">
             <img src="pictures/cv.jpg" alt="cv" />
           </a>
         </article>
       </section>
 
       <section class="container">
-        <article class="reveal-container1">
-          <a href="../html-blog/index.html">
-            <img src="pictures/blog.jpg" alt="planets" />
-          </a>
-        </article>
+        <article class="reveal-container">
+        <a href="https://cvassia.github.io/weatherApp/">
+          <img src="pictures/weather.jpg" alt="weather" />
+        </a>
+      </article>
         <div class="middle_line2"></div>
         <article>
-          <h6 class="text-align-left" class="info1">2019</h6>
-          <h5 class="text-align-left" class="info1">planets blog</h5>
+          <h6 class="text-align-left info2">2019</h6>
+          <h5 class="text-align-left info2">weather app</h5>
         </article>
       </section>
 
       <section class="container">
         <article>
           <h6 class="info1">2019</h6>
-          <h5 class="info1">fantastic 4</h5>
+          <h5 class="info1">to do list</h5>
         </article>
         <div class="middle_line1"></div>
         <article class="reveal-container1">
           <a href="../fanastic-four/index.html">
-            <img src="pictures/fantastic4.jpg" alt="fantastic 4" />
+            <img src="pictures/toDo.png" alt="to do app" />
           </a>
         </article>
       </section>
 
       <section class="container">
-        <article class="reveal-container1">
-          <a href="../html-photo_blog/index.html">
-            <img src="pictures/photo-blog.jpg" alt="tailand" />
+        <article class="reveal-container">
+          <a href="https://cvassia.github.io/Spyros_Markopoulos/index.html">
+            <img src="pictures/markopoulos.jpg" alt="markopoulos" />
           </a>
         </article>
         <div class="middle_line2"></div>
         <article>
-          <h6 class="text-align-left" class="info1">2019</h6>
-          <h5 class="text-align-left" class="info1">tailand</h5>
-        </article>
-      </section>
-
-      <section class="container">
-        <article>
-          <h6 class="info1">2019</h6>
-          <h5 class="info1">theater portfolio</h5>
-        </article>
-        <div class="middle_line1"></div>
-        <article class="reveal-container1">
-          <a href="../html-portfolio/index.html">
-            <img src="pictures/portfolio.jpg" alt="portfolio" />
-          </a>
-        </article>
-      </section>
-
-      <section class="container">
-        <article class="reveal-container1">
-          <a href=" https://cvassia.github.io/patra/">
-            <img src="pictures/patra.jpg" alt="patra" />
-          </a>
-        </article>
-        <div class="middle_line2"></div>
-        <article>
-          <h6 class="text-align-left" class="info1">2019</h6>
-          <h5 class="text-align-left" class="info1">patra website</h5>
+          <h6 class="text-align-left info2" >2019</h6>
+          <h5 class="text-align-left info2" >actor's website</h5>
         </article>
       </section>
 
@@ -337,15 +326,15 @@ object in window */
       </section>
 
       <section class="container">
-        <article class="reveal-container1">
-          <a href="https://cvassia.github.io/Spyros_Markopoulos/index.html">
-            <img src="pictures/markopoulos.jpg" alt="markopoulos" />
+        <article class="reveal-container">
+          <a href=" https://cvassia.github.io/patra/">
+            <img src="pictures/patra.jpg" alt="patra" />
           </a>
         </article>
         <div class="middle_line2"></div>
         <article>
-          <h6 class="text-align-left" class="info1">2019</h6>
-          <h5 class="text-align-left" class="info1">actor's website</h5>
+          <h6 class="text-align-left info2">2019</h6>
+          <h5 class="text-align-left info2">patra website</h5>
         </article>
       </section>
 
@@ -361,85 +350,143 @@ object in window */
           </a>
         </article>
       </section>
+
+      <section class="container">
+        <article class="reveal-container">
+          <a href="https://cvassia.github.io/diceApp/">
+            <img src="pictures/dice.jpg" alt="dice" />
+          </a>
+        </article>
+        <div class="middle_line2"></div>
+        <article>
+          <h6 class="text-align-left info2">2018</h6>
+          <h5 class="text-align-left info2">roll the dice</h5>
+        </article>
+      </section>
+
+      <section class="container">
+        <article>
+          <h6 class="info1">2018</h6>
+          <h5 class="info1">theater portfolio</h5>
+        </article>
+        <div class="middle_line1"></div>
+        <article class="reveal-container1">
+          <a href="../html-portfolio/index.html">
+            <img src="pictures/portfolio.jpg" alt="portfolio" />
+          </a>
+        </article>
+      </section>
+
+      <section class="container">
+        <article class="reveal-container">
+          <a href="../fanastic-four/index.html">
+            <img src="pictures/fantastic4.jpg" alt="fantastic 4" />
+          </a>
+        </article>
+        <div class="middle_line2"></div>
+        <article>
+          <h6 class="text-align-left info2">2018</h6>
+          <h5 class="text-align-left info2">fantastic 4</h5>
+        </article>
+      </section>
     </section>
+
 
     <script>
       /* Setting Scroll reveal as a global 
   object in window */
       window.sr = new ScrollReveal({
-        reset: true // to repeat the effect
+        reset: false // to repeat the effect
       });
 
       // Picture
       sr.reveal("#hidden", {
         origin: "bottom",
-        duration: 4000,
-        distance: "700px"
+        duration: 3000,
+        distance: "500px",
+        reset: true
       });
 
       // First Section
 
       sr.reveal("#reveal-h1", {
-        origin: "left",
-        duration: 4000, // Place to start
-        distance: "700px" // Distance to be moved
+        origin: "top",
+        duration: 3000, 
+        distance: "250px",
+        reset: true
         
       });
 
       // Second section
       sr.reveal(".reveal-container1", {
-        origin: "bottom",
+        origin: "left",
         duration: 4000,
-        distance: "700px"
+        distance: "250px"
       });
 
       // info box
       sr.reveal(".info1", {
-        origin: "bottom",
+        origin: "right",
         duration: 4000,
-        distance: "700px"
+        distance: "250px"
+      });
+
+      // Second section
+      sr.reveal(".reveal-container", {
+        origin: "right",
+        duration: 4000,
+        distance: "250px"
+      });
+
+      // info box
+      sr.reveal(".info2", {
+        origin: "left",
+        duration: 4000,
+        distance: "250px"
       });
     </script>
 
     <!-- contact section -->
 
     <div id="contact">
-      <div class="informations">
-        <img class="reveal-logo" src="pictures/logo.png" alt="logo" />
-        <h4>vassia christ</h4>
-        <h6>c.vassia@live.com</h6>
-        <h6>+49 15750411168</h6>
+        <div class="informations">
+          <img class="reveal-logo" src="pictures/logo.png" alt="logo" />
+          <h4>vassia christ</h4>
+          <h6>c.vassia@live.com</h6>
+          <h6>+49 15750411168</h6>
+        </div>
+        <div class="wrapper">
+          <form action="https://formspree.io/xnerlwqm" method="POST">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="first_name"
+              id="fname"
+              placeholder="Your name.."
+            />
+  
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email_address"
+              id="lname"
+              placeholder="Your email.."
+            />
+  
+            <label for="message">Subject</label>
+            <textarea
+              id="subject"
+              name="comments"
+              placeholder="Your message.."
+              style="height:200px"
+            ></textarea>
+  
+            <input type="submit" name="submit" value="submit" />
+          </form>
+        </div>
       </div>
-      <div class="wrapper">
-        <form action="/action_page.php">
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your name.."
-          />
 
-          <label for="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-          />
-
-          <label for="subject">Subject</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Your message.."
-            style="height:200px"
-          ></textarea>
-
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-    </div>
+   
 
     <script>
       /* Setting Scroll reveal as a global 
