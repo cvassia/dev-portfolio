@@ -129,6 +129,197 @@
       </article> -->
     </section>
 
+    <!-- Projects Section for desktop-->
+    <section id="projects-desktop">
+        <h2 id="reveal-h1">Projects</h2>
+        <div class="middle_line"></div>
+        
+        <section class="container">
+          <article>
+            <h6 class="info1">2019</h6>
+            <h5 class="info1">curriculum vitae</h5>
+          </article>
+          <div class="middle_line1"></div>
+          <article class="reveal-container1">
+            <a href="https://cvassia.github.io/cv/">
+              <img src="pictures/cv.jpg" alt="cv" />
+            </a>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article class="reveal-container">
+          <a href="https://cvassia.github.io/weatherApp/">
+            <img src="pictures/weather.jpg" alt="weather" />
+          </a>
+        </article>
+          <div class="middle_line2"></div>
+          <article>
+            <h6 class="text-align-left info2">2019</h6>
+            <h5 class="text-align-left info2">weather app</h5>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article>
+            <h6 class="info1">2019</h6>
+            <h5 class="info1">to do list</h5>
+          </article>
+          <div class="middle_line1"></div>
+          <article class="reveal-container1">
+            <a href="../fanastic-four/index.html">
+              <img src="pictures/toDo.png" alt="to do app" />
+            </a>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article class="reveal-container">
+            <a href="https://cvassia.github.io/Spyros_Markopoulos/index.html">
+              <img src="pictures/markopoulos.jpg" alt="markopoulos" />
+            </a>
+          </article>
+          <div class="middle_line2"></div>
+          <article>
+            <h6 class="text-align-left info2" >2019</h6>
+            <h5 class="text-align-left info2" >actor's website</h5>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article>
+            <h6 class="info1">2019</h6>
+            <h5 class="info1">greece website</h5>
+          </article>
+          <div class="middle_line1"></div>
+          <article class="reveal-container1">
+            <a href="greece.html">
+              <img src="pictures/greece.jpg" alt="greece" />
+            </a>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article class="reveal-container">
+            <a href=" https://cvassia.github.io/patra/">
+              <img src="pictures/patra.jpg" alt="patra" />
+            </a>
+          </article>
+          <div class="middle_line2"></div>
+          <article>
+            <h6 class="text-align-left info2">2019</h6>
+            <h5 class="text-align-left info2">patra website</h5>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article>
+            <h6 class="info1">2019</h6>
+            <h5 class="info1">landing page</h5>
+          </article>
+          <div class="middle_line1"></div>
+          <article class="reveal-container1">
+            <a href="https://cvassia.github.io/ProductLandingPage/">
+              <img src="pictures/landing-page.jpg" alt="landing page" />
+            </a>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article class="reveal-container">
+            <a href="https://cvassia.github.io/diceApp/">
+              <img src="pictures/dice.jpg" alt="dice" />
+            </a>
+          </article>
+          <div class="middle_line2"></div>
+          <article>
+            <h6 class="text-align-left info2">2018</h6>
+            <h5 class="text-align-left info2">roll the dice</h5>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article>
+            <h6 class="info1">2018</h6>
+            <h5 class="info1">theater portfolio</h5>
+          </article>
+          <div class="middle_line1"></div>
+          <article class="reveal-container1">
+            <a href="../html-portfolio/index.html">
+              <img src="pictures/portfolio.jpg" alt="portfolio" />
+            </a>
+          </article>
+        </section>
+  
+        <section class="container">
+          <article class="reveal-container">
+            <a href="../fanastic-four/index.html">
+              <img src="pictures/fantastic4.jpg" alt="fantastic 4" />
+            </a>
+          </article>
+          <div class="middle_line2"></div>
+          <article>
+            <h6 class="text-align-left info2">2018</h6>
+            <h5 class="text-align-left info2">fantastic 4</h5>
+          </article>
+        </section>
+      </section>
+  
+  
+      <script>
+        /* Setting Scroll reveal as a global 
+    object in window */
+        window.sr = new ScrollReveal({
+          reset: false // to repeat the effect
+        });
+  
+        // Picture
+        sr.reveal("#hidden", {
+          origin: "bottom",
+          duration: 3000,
+          distance: "500px",
+          reset: true
+        });
+  
+        // First Section
+  
+        sr.reveal("#reveal-h1", {
+          origin: "top",
+          duration: 3000, 
+          distance: "250px",
+          reset: true
+          
+        });
+  
+        // Second section
+        sr.reveal(".reveal-container1", {
+          origin: "left",
+          duration: 4000,
+          distance: "250px"
+        });
+  
+        // info box
+        sr.reveal(".info1", {
+          origin: "right",
+          duration: 4000,
+          distance: "250px"
+        });
+  
+        // Second section
+        sr.reveal(".reveal-container", {
+          origin: "right",
+          duration: 4000,
+          distance: "250px"
+        });
+  
+        // info box
+        sr.reveal(".info2", {
+          origin: "left",
+          duration: 4000,
+          distance: "250px"
+        });
+      </script>
+
     <!-- Projects Section for mobile-->
 
     <section id="projects" class="mobile" >
@@ -255,196 +446,7 @@ object in window */
 
     </script>
 
-    <!-- Projects Section for desktop-->
-    <section id="projects-desktop">
-      <h2 id="reveal-h1">Projects</h2>
-      <div class="middle_line"></div>
-      
-      <section class="container">
-        <article>
-          <h6 class="info1">2019</h6>
-          <h5 class="info1">curriculum vitae</h5>
-        </article>
-        <div class="middle_line1"></div>
-        <article class="reveal-container1">
-          <a href="https://cvassia.github.io/cv/">
-            <img src="pictures/cv.jpg" alt="cv" />
-          </a>
-        </article>
-      </section>
-
-      <section class="container">
-        <article class="reveal-container">
-        <a href="https://cvassia.github.io/weatherApp/">
-          <img src="pictures/weather.jpg" alt="weather" />
-        </a>
-      </article>
-        <div class="middle_line2"></div>
-        <article>
-          <h6 class="text-align-left info2">2019</h6>
-          <h5 class="text-align-left info2">weather app</h5>
-        </article>
-      </section>
-
-      <section class="container">
-        <article>
-          <h6 class="info1">2019</h6>
-          <h5 class="info1">to do list</h5>
-        </article>
-        <div class="middle_line1"></div>
-        <article class="reveal-container1">
-          <a href="../fanastic-four/index.html">
-            <img src="pictures/toDo.png" alt="to do app" />
-          </a>
-        </article>
-      </section>
-
-      <section class="container">
-        <article class="reveal-container">
-          <a href="https://cvassia.github.io/Spyros_Markopoulos/index.html">
-            <img src="pictures/markopoulos.jpg" alt="markopoulos" />
-          </a>
-        </article>
-        <div class="middle_line2"></div>
-        <article>
-          <h6 class="text-align-left info2" >2019</h6>
-          <h5 class="text-align-left info2" >actor's website</h5>
-        </article>
-      </section>
-
-      <section class="container">
-        <article>
-          <h6 class="info1">2019</h6>
-          <h5 class="info1">greece website</h5>
-        </article>
-        <div class="middle_line1"></div>
-        <article class="reveal-container1">
-          <a href="greece.html">
-            <img src="pictures/greece.jpg" alt="greece" />
-          </a>
-        </article>
-      </section>
-
-      <section class="container">
-        <article class="reveal-container">
-          <a href=" https://cvassia.github.io/patra/">
-            <img src="pictures/patra.jpg" alt="patra" />
-          </a>
-        </article>
-        <div class="middle_line2"></div>
-        <article>
-          <h6 class="text-align-left info2">2019</h6>
-          <h5 class="text-align-left info2">patra website</h5>
-        </article>
-      </section>
-
-      <section class="container">
-        <article>
-          <h6 class="info1">2019</h6>
-          <h5 class="info1">landing page</h5>
-        </article>
-        <div class="middle_line1"></div>
-        <article class="reveal-container1">
-          <a href="https://cvassia.github.io/ProductLandingPage/">
-            <img src="pictures/landing-page.jpg" alt="landing page" />
-          </a>
-        </article>
-      </section>
-
-      <section class="container">
-        <article class="reveal-container">
-          <a href="https://cvassia.github.io/diceApp/">
-            <img src="pictures/dice.jpg" alt="dice" />
-          </a>
-        </article>
-        <div class="middle_line2"></div>
-        <article>
-          <h6 class="text-align-left info2">2018</h6>
-          <h5 class="text-align-left info2">roll the dice</h5>
-        </article>
-      </section>
-
-      <section class="container">
-        <article>
-          <h6 class="info1">2018</h6>
-          <h5 class="info1">theater portfolio</h5>
-        </article>
-        <div class="middle_line1"></div>
-        <article class="reveal-container1">
-          <a href="../html-portfolio/index.html">
-            <img src="pictures/portfolio.jpg" alt="portfolio" />
-          </a>
-        </article>
-      </section>
-
-      <section class="container">
-        <article class="reveal-container">
-          <a href="../fanastic-four/index.html">
-            <img src="pictures/fantastic4.jpg" alt="fantastic 4" />
-          </a>
-        </article>
-        <div class="middle_line2"></div>
-        <article>
-          <h6 class="text-align-left info2">2018</h6>
-          <h5 class="text-align-left info2">fantastic 4</h5>
-        </article>
-      </section>
-    </section>
-
-
-    <script>
-      /* Setting Scroll reveal as a global 
-  object in window */
-      window.sr = new ScrollReveal({
-        reset: false // to repeat the effect
-      });
-
-      // Picture
-      sr.reveal("#hidden", {
-        origin: "bottom",
-        duration: 3000,
-        distance: "500px",
-        reset: true
-      });
-
-      // First Section
-
-      sr.reveal("#reveal-h1", {
-        origin: "top",
-        duration: 3000, 
-        distance: "250px",
-        reset: true
-        
-      });
-
-      // Second section
-      sr.reveal(".reveal-container1", {
-        origin: "left",
-        duration: 4000,
-        distance: "250px"
-      });
-
-      // info box
-      sr.reveal(".info1", {
-        origin: "right",
-        duration: 4000,
-        distance: "250px"
-      });
-
-      // Second section
-      sr.reveal(".reveal-container", {
-        origin: "right",
-        duration: 4000,
-        distance: "250px"
-      });
-
-      // info box
-      sr.reveal(".info2", {
-        origin: "left",
-        duration: 4000,
-        distance: "250px"
-      });
-    </script>
+    
 
     <!-- contact section -->
 
