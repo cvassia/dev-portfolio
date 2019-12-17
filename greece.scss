@@ -122,8 +122,10 @@ nav {
     i {
       margin-top: 2em;
       a {
-        color: white;
+        text-decoration: none;
+        color: #267b7b;
         padding-left: 1em;
+        font-size: 32px;
       }
     }
   }
@@ -171,7 +173,7 @@ footer {
 }
 
 footer p {
-  padding-right: 10em;
+  padding-right: 6em;
 }
 
 footer a {

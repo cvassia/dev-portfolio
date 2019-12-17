@@ -51,51 +51,6 @@
       </div>
     </nav>
 
-    <script>
-      function openNav() {
-        document.getElementById("myNav").style.height = "100%";
-      }
-
-      function closeNav() {
-        document.getElementById("myNav").style.height = "0%";
-      }
-    </script>
-
-    <script>
-      $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll < 1) {
-          $(".fixed-top").css("background", "black");
-        } else {
-          $(".fixed-top").css("background", "transparent");
-          $(".fixed-top #logo").css("color", "white");
-        }
-      });
-
-      $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll < 1450) {
-          $(".fixed-top").css("color", "transparent");
-          $(".fixed-top #logo").css("color", "white");
-          $("button").css("color", "white");
-        } else {
-          $(".fixed-top").css("background", "rgba(255, 255, 255, 0.644)");
-          $(".fixed-top #logo").css("color", "black");
-          $("button").css("color", "black");
-        }
-      });
-
-      // $(window).scroll(function() {
-      //   var scroll = $(window).scrollTop();
-      //   if (scroll < 4670) {
-      //     $("rgba(255, 255, 255, 0.644)").css("background", "transparent");
-      //   } else {
-      //     $(".fixed-top").css("background", "transparent");
-      //     $(".fixed-top #logo").css("color", "white");
-      //     $("button").css("color", "white");
-      //   }
-      // });
-    </script>
     <div class="MainContainer">
       <div class="ParallaxContainer">
         <div class="first-section">
@@ -111,7 +66,7 @@
               <li>Front end</li>
             </ul>
             <p>
-              A website about the country of Greeks. Dislay of it's geography.
+              A website about the country of Greeks. Display of it's geography.
               The biggest cities, the counties and the islands.
               <br />
               <br />
@@ -120,12 +75,10 @@
               until today and the most significant culture events.
             </p>
             <i class="fas fa-greater-than"
-              ><a href="https://cvassia.github.io/amazing-greece/"
-                >visit website</a
-              ></i
+              ><a href="https://amazinggreece.cvassia.com">visit website</a></i
             >
           </section>
-          <img id="png-center" src="pictures/part-greece.png" alt="website" />
+          <img id="png-center" src="pictures/part-greece.jpg" alt="website" />
         </div>
       </div>
       <div class="ContentContainer">
@@ -133,13 +86,13 @@
           <h4>Responsive design</h4>
           <h5>Mobile - Tablet</h5>
           <article>
-            <img src="pictures/mobile1.png" alt="mobile1" />
+            <img src="pictures/mobile1.jpg" alt="mobile1" />
           </article>
           <article>
-            <img src="pictures/mobile2.png" alt="mobile1" />
+            <img src="pictures/mobile2.jpg" alt="mobile1" />
           </article>
           <article>
-            <img id="tablet" src="pictures/tablet.png" alt="tablet" />
+            <img id="tablet" src="pictures/tablet.jpg" alt="tablet" />
           </article>
         </section>
       </div>
@@ -156,9 +109,11 @@
       <a class="fab fa-github" href="https://github.com/cvassia"></a>
 
       <a
-        class="fab fa-pinterest"
-        href="https://www.pinterest.de/vassiachrist/web-design/"
+        class="fab fa-linkedin"
+        href="https://www.linkedin.com/in/vassia-christ-2030672b/"
       ></a>
     </footer>
+
+    <script src="mainGreece.js"></script>
   </body>
 </html>

@@ -61,6 +61,21 @@ nav #navbarNavAltMarkup a {
   color: #000000;
 }
 
+.navChangedProjects {
+  background-color: rgba(255, 255, 255, 0.644);
+  -webkit-box-shadow: 0 1px 10px 0px black;
+          box-shadow: 0 1px 10px 0px black;
+}
+
+.textChangedContact {
+  color: #ffffff !important;
+  text-shadow: 0.5px 0.5px #777777;
+}
+
+.logoChangedContact {
+  color: #ffffff;
+}
+
 #about {
   height: 1em;
 }
@@ -199,7 +214,7 @@ footer {
 }
 
 footer p {
-  padding-right: 10em;
+  padding-right: 6em;
 }
 
 footer a {
